@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🌍 My Amazing Blog</h1>
+        <nav>
+            <ul>
+            <li><a href="index.html"><span aria-hidden="true">🏠</span> Home</a></li>
+            <li><a href="about.html"><span aria-hidden="true">👤</span> About</a></li>
+            <li><a href="contact.html"><span aria-hidden="true">✉️</span> Contact</a></li>
+            </ul>
+        </nav>
+
+        <p>Welcome to my little corner of the internet! Here, I share my thoughts, adventures, and everything in between. Join me on this journey! 🚀</p>
+    </header>
+    
+    <main>
+        <section class="posts">
+            <article class="blog-post">
+                <img src="blog-image1.jpg" alt="A beautiful sunrise" class="post-image">
+                <div class="post-content">
+                    <h2>The Beauty of Sunrises <span aria-hidden="true">🌅</span></h2>
+                    <p class="post-meta">Posted on April 4, 2025 · 3 min read</p>
+                    <p>There's something magical about watching the sun rise—how it paints the sky with fiery hues and slowly wakes the world. A peaceful moment before the day's chaos begins.</p>
+                    <button class="like-btn" onclick="toggleLike(1)">Like ❤️</button>
+                    <span id="like-count-1" class="like-count">Likes: 0</span>
+                </div>
+            </article>
+
+            <article class="blog-post">
+                <img src="blog-image2.jpg" alt="A cup of coffee" class="post-image">
+                <div class="post-content">
+                    <h2>Why Coffee is Life <span aria-hidden="true">☕</span></h2>
+                    <p class="post-meta">Posted on May 01, 2025 · 2 min read</p>
+                    <p>Coffee is more than just a drink—it's a ritual, a warm embrace in the morning, a reason to pause and reflect. What's your favorite coffee moment?</p>
+                    <button class="like-btn" onclick="toggleLike(2)">Like ❤️</button>
+                    <span id="like-count-2" class="like-count">Likes: 0</span>
+                </div>
+            </article>
+
+            <article class="blog-post">
+                <img src="blog-image3.jpg" alt="A hiking trail in the forest" class="post-image">
+                <div class="post-content">
+                    <h2>Exploring Nature's Trails <span aria-hidden="true">🌲</span></h2>
+                    <p class="post-meta">Posted on Jan 20, 2025 · 4 min read</p>
+                    <p>Hiking through lush forests and winding trails brings a sense of adventure and tranquility. Every step is a reminder of the beauty and serenity that nature offers.</p>
+                    <button class="like-btn" onclick="toggleLike(3)">Like ❤️</button>
+                    <span id="like-count-3" class="like-count">Likes: 0</span>
+                </div>
+            </article>
+
+            <article class="blog-post">
+                <img src="blog-image4.jpg" alt="A stack of books and glasses" class="post-image">
+                <div class="post-content">
+                    <h2>The Joy of Reading <span aria-hidden="true">📚</span></h2>
+                    <p class="post-meta">Posted on Feb 15, 2025 · 5 min read</p>
+                    <p>Books open doors to new worlds and ideas. Whether it's fiction or non-fiction, reading enriches the mind and fuels creativity. What's on your reading list?</p>
+                    <button class="like-btn" onclick="toggleLike(4)">Like ❤️</button>
+                    <span id="like-count-4" class="like-count">Likes: 0</span>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Amazing Blog | Follow me on <a href="https://twitter.com">Twitter</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
